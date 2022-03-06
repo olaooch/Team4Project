@@ -9,25 +9,41 @@
  color: white;
  margin-bottom: 10%;
 }
+
+
 .textall{
   display: flex;
-  justify-content: space-around;
-  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   margin-left: 10%;
-}
+  margin-top: -3%;
+  
+  
 
+  
+  
+}
 .text{
   
-  margin-bottom: 10%;
+  margin-bottom: 3%;
   display: flex;
   justify-content: center;
   font-weight:bolder ;
 }
+
+
+
 .textwrapper{
   width: 100%;
   color:white;
   display: flex;
   justify-content: center;
+  flex-direction: column
+  
+}
+.txt1{
+  display: flex;
+  justify-content: space-around;
   flex-direction: column;
   
 }
@@ -39,6 +55,7 @@
   color: orangered;
   
   
+  
 }
 
 .txtp{
@@ -47,33 +64,40 @@
 
 }
 .iphonecontainer{
-  height:700px;
-  width: 100%;
+  height:800px;
+  width:100%;
   display: flex;
-  justify-content:center ;
   background-color: black;
+  align-items: center;
+  justify-content: center;
   
 }
-.iphonewrapper{
-  width: 39%;
-  display: flex;
-  justify-content: center;
-  display: flex;
-  flex-direction: column;
+.circle{
+  height: 42%;
+  width: 42%;
+  border: 25px solid;
+  border-color: orangered;
+  background-color: black;
+  z-index: 1;
+  position: relative;
+  border-radius: 50%;
+
 }
 
 .iphone{
-  height: 80%;
-  margin-left: 18%;
-  margin-top: 10px;
-  display: flex;
-  justify-content: center;
+  height: 500px;
+  z-index: 2;
+  position: absolute;
 
 }
 .mainbut{
-  margin-left: 40%;
-  margin-top: 10%;
-
+  height: 100%;
+  width: 100%;
+  display: flex;
+ align-items: center;
+ justify-content: center;
+ 
+ 
   
 }
 .but{
